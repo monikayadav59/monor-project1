@@ -1,0 +1,78 @@
+body
+{
+    background-color: #F3C5C5;
+
+}
+
+.naav-brand
+{
+    font-size: 4rem;
+    margin-left: 8%;
+    color: #694E4E;
+}
+.naaav-brand
+{
+    font-size: 1.5rem;
+    margin-right: 8%;
+}
+.mainContent
+{
+    margin-top: 30px;
+    margin-right: 8%;
+    margin-left: 8%;
+    display: flex;
+
+}
+.wid
+{
+    width: 52%;
+}
+.vipul
+{
+    height: 500px;
+    float: right;
+    
+}
+.monikachoti
+{    
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #694E4E;
+}
+.navItem
+{
+    margin-top: 28px;
+}
+.mainButton {
+    display: inline;
+    background: #C1A3A3 ;
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.9);
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+  }
+  .mainButton:hover {
+    background: #694E4E;
+    color: white;
+  }
+.tete
+{
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .naav-Brand{
+        font-size: 3rem;
+        margin-left : 0rem;
+    }
+    .naaav-brand{
+        margin-right: 0rem;
+        font-size: 1rem;
+    }
+  }
